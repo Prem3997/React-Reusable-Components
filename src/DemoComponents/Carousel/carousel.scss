@@ -1,0 +1,10 @@
+.carousel-main{
+    margin-left: 13%;
+    font-size:1.2rem;
+    box-sizing:content-box;
+}
+@media screen and (max-width:575px){
+    .carousel-main{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,47 @@
+.mic-icon{
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top: -0.2%;
+}
+.mic-off-icon{
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top:-0.2%
+    
+}
+.del-icon{
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top:-0.2%
+}
+.search-box{
+    width: 24%;
+    height: 50px;
+    margin-top: 2%;
+    font-weight: bold;
+    border:1px solid black;
+    font-size: larger;
+}
+.speech-textbox{
+    margin-top: 1%;
+    margin-left: 42%;
+    height: 10%;
+    width: 20%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    font-weight: bolder;
+    font-size: larger;
+}
+.speech-text-styles{
+    margin-left:-20%;
+}
+
+@media only screen and (max-width:575px){
+    .speech-text-styles{
+        margin-left:0;
+    }
+    .search-box{
+        width:60%;
+    }
+}

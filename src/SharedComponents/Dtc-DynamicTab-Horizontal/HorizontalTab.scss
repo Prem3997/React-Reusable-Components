@@ -1,0 +1,55 @@
+$nav_background-color:#F0F0F0;
+$nav_hover_active_background-color:black;
+$font-color:black;
+$hover_active_font-color:yellow;
+
+.horizontal-tab-link{    
+  margin-top: 5rem; 
+  margin-left: 1rem;
+  color: $font-color; 
+  background-color: $nav_background-color;
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: 95%;
+}
+.navbar-height{
+  height: 60px
+}  
+.navbar__link-horz{
+  color: $font-color !important;
+  text-decoration: none !important;
+  padding: 2rem;
+  text-align: center;
+  margin: 1rem;
+  font-size: large;
+  font-weight: 400; 
+}
+.navbar__link-horz--active {
+  color: $hover_active_font-color !important;
+  background-color: $nav_hover_active_background-color; 
+}
+.navbar__link-horz:hover{
+  color: $hover_active_font-color!important;
+  background-color: $nav_hover_active_background-color; 
+}
+.form-submit-btn{
+  background-color: yellow;
+  color: black;
+  padding:1rem 2rem;
+  font-size:1.5rem;
+  border: none;
+}
+
+@media screen and (max-width:768px){
+  .navbar__link-horz{
+    font-size: medium;
+  }
+  .navbar-height{
+    height: 60px
+  }  
+}
+@media screen and (max-width:576px){
+  .navbar-height{
+    height: fit-content
+  }  
+}

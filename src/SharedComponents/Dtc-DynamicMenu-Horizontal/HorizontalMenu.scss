@@ -1,0 +1,96 @@
+$nav_background-color:#F0F0F0;
+$nav_hover_active_background-color:black;
+$font-color:black;
+$hover_active_font-color:yellow;
+
+.horizontal-menu-link{    
+     margin-top: 5rem; 
+     margin-left: 1rem;
+     color: $font-color; 
+     background-color: $nav_background-color;
+     width: 95%;
+     /* overflow-y: hidden;
+    overflow-x: auto; */    
+  }
+  .navbar-height{
+    height: 60px
+  } 
+  .navbar__link-horz-menu{
+      color: $font-color !important;
+      text-decoration: none !important;
+      font-size: large;
+      padding: 1.5rem;
+      text-align: center;
+      margin: 1rem;
+      font-weight: 400;     
+  }
+  .navbar__link-horz-menu--active {
+      color: $hover_active_font-color!important;
+      background-color: $nav_hover_active_background-color; 
+     
+    }
+    .navbar .navbar__link-horz-menu:hover{
+      color: $hover_active_font-color!important;
+      background-color: $nav_hover_active_background-color; 
+      
+  }
+  .navbar__link-horz-dropdownMenu{
+    color: $font-color !important;
+    text-decoration: none !important;
+    font-size: medium;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    margin:'0.5rem 0rem';
+    font-weight: 400;
+    display:flex;
+    flex-direction:column;
+  }
+  .navbar .navbar__link-horz-dropdownMenu--active {
+    color: $hover_active_font-color!important;
+    background-color: $nav_hover_active_background-color; 
+   
+  }
+  .navbar .navbar__link-horz-dropdownMenu:hover{
+    color: $hover_active_font-color!important;
+    background-color: $nav_hover_active_background-color; 
+    
+  }
+  
+  .mr-auto, .mx-auto {
+    margin-right: 4rem !important;
+  }
+  #collapsible-nav-dropdown{
+    color:$font-color;
+    text-decoration: none; 
+    margin: 1rem;
+    font-size: large;
+     font-weight: 400;
+  }
+  .dxcicon-horz-menu{ 
+    margin-left: 1%;
+    width: 10rem;
+    height: 5rem;
+}
+.form-submit-btn-horz{
+  background-color: yellow;
+   color: black;
+   padding:1rem 2rem;
+   font-size:1.5rem;
+   border: none;
+}
+@media screen and (max-width:768px){
+  .navbar__link-horz-menu{
+    font-size: medium;
+  }
+  .navbar-height{
+    height: 60px
+  }  
+}
+@media screen and (max-width:576px){
+  .navbar-height{
+    height: fit-content
+  }  
+}
+  
+  
+  

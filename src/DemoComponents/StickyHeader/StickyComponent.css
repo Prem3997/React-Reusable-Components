@@ -1,0 +1,73 @@
+.selected {
+    border-bottom: 3px solid #11bb9a;
+    color: #11bb9a;
+  }
+  .bottom-spacer {
+    height: 60vh;
+  }
+  .sticky {
+    position: sticky;
+    top: -8px;
+    left: 0;
+    right: 0;
+    z-index:10;
+    
+}
+  .section {
+    height: 50vh;
+    width: 90vh;
+    margin-left: 31%;
+   
+  }
+  
+  #Menu1 {
+    background-color: #a318e86b;
+    padding: 11vh;
+    font-size: 22px;
+  }
+  
+  #Menu2 {
+    background-color: #f4969e;
+    padding: 11vh;
+    font-size: 22px;
+  }
+  
+  #Menu3 {
+    background-color: #8face0;
+    padding: 11vh;
+    font-size: 22px;
+  }
+
+  #Menu4 {
+    background-color: #8fe0ae;
+    padding: 11vh;
+    font-size: 22px;
+  }
+
+  #MultiSelect{
+    margin-left: 8.8%;
+  }
+  
+  .select{
+    margin: 20px;
+    
+  }
+.select
+ input[type="radio"]
+ {
+   margin-left:20px;
+   margin-right:2px;
+  
+ }
+
+ .navbar-info
+ {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+ }
+
+ .label1
+ {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+ }

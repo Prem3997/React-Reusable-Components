@@ -1,0 +1,20 @@
+{
+    "data":[
+    {"Tenant ID": 840, "Client": "T2039", "Total Amount Due": 65000,"Charge Type":34,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 740, "Client": "T20569", "Total Amount Due": 68000,"Charge Type":34,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 8450, "Client": "T20y6", "Total Amount Due": 55000,"Charge Type":34,"Amount Pending":34,"Collectible/Non Collectible":"Non-Collectible"},
+    {"Tenant ID": 230, "Client": "T2039", "Total Amount Due": 6600,"Charge Type":34,"Amount Pending":63,"Collectible/Non Collectible":"Non-Collectible"},
+    {"Tenant ID": 450, "Client": "T20t9", "Total Amount Due": 67000,"Charge Type":34,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 860, "Client": "Trt039", "Total Amount Due": 8000,"Charge Type":63,"Amount Pending":34,"Collectible/Non Collectible":"Non-Collectible"},
+    {"Tenant ID": 280, "Client": "T2039", "Total Amount Due": 23000,"Charge Type":63,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 190, "Client": "T2039", "Total Amount Due": 13000,"Charge Type":63,"Amount Pending":63,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 450, "Client": "T2567", "Total Amount Due": 56000,"Charge Type":34,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 670, "Client": "T1230", "Total Amount Due": 67800,"Charge Type":63,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 306, "Client": "T20378", "Total Amount Due": 67890,"Charge Type":63,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 867, "Client": "T2739", "Total Amount Due": 65045,"Charge Type":34,"Amount Pending":34,"Collectible/Non Collectible":"Non-Collectible"},
+    {"Tenant ID": 856, "Client": "T2079", "Total Amount Due": 23000,"Charge Type":63,"Amount Pending":63,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 856, "Client": "T2739", "Total Amount Due": 65600,"Charge Type":63,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 845, "Client": "T2039", "Total Amount Due": 65600,"Charge Type":34,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"},
+    {"Tenant ID": 860, "Client": "T2039", "Total Amount Due": 65600,"Charge Type":34,"Amount Pending":34,"Collectible/Non Collectible":"Collectible"}
+]
+}

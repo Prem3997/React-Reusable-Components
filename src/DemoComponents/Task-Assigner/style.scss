@@ -1,0 +1,57 @@
+.task-assigner{
+    margin-left: 16%;
+}
+@media screen and (max-width: 575px){
+    .task-assigner{
+        margin-left: 1%;
+    }
+}
+// .multicolumn{
+//     display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+  
+// }
+// .task-tooltip{
+//     border: 1px solid black !important;
+// }
+
+// .task-cards{
+    
+//     float: left;
+//     width: 30%;
+//     margin: 1rem;
+//     padding: 1rem;
+    
+//     &__single{
+//         text-align: left;
+//         border: 1px solid black;
+//         display: flex;
+//         flex-direction: column;
+//         margin-bottom: 1rem;
+        
+//         &__main{
+//             border-bottom : 0.005rem solid grey;
+
+//             &__name{
+//                 float: left;
+//                 margin: 1rem;
+//             }
+    
+//             &__task-icon{
+//                 float: right;
+//                 width: 1.5rem;
+//                 height: 1.5rem;
+//                 margin: 1rem;
+//                 color: red;
+//             }
+
+//         }
+//         &__description{
+//             margin: 1rem;
+//              height: max-content;
+//         }
+        
+//     }
+// }

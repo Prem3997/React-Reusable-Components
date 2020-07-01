@@ -1,0 +1,40 @@
+.component-header {
+    color: black;
+    margin-bottom: 0px;
+    margin-top: -1%;
+    padding-top: .3125rem;
+    /* font-size: 1.25rem; */
+    font-size: 200%;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.table-style {
+    /* display: inline-block; */
+    width:32%;
+    margin:0 auto;
+    font-size: large;
+}
+
+.table-row {
+    border: solid 0.065rem grey;
+
+}
+
+.rating-broder {
+        border-bottom: solid 0.065rem grey;
+
+}
+
+@media screen and (max-width:575px) {
+    .component-header{
+        font-size: medium;
+    }
+    .table-style {
+        width:75%;
+        margin:0 auto;
+        font-size: medium;
+        margin-bottom: 10%;
+    }
+
+}

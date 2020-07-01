@@ -1,0 +1,26 @@
+.drop-container {
+  width: 20%;
+  background: #dfe3e6;
+  border-radius: 5px;
+  margin-right: 40px;
+  padding: 0 10px;
+}
+
+.drop-header {
+  text-align: left;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 575px){
+  .drop-header{
+    text-align: center;
+    padding-left: 0;
+    font-size: medium;
+  }
+  .drop-container{
+    width: 30%;
+    padding: 0;
+    margin-right: 10px;
+  }
+}

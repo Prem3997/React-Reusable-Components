@@ -1,0 +1,12 @@
+.button-outline{
+    background-color: black;
+    margin-left:30% ;
+    width:40%;
+}
+
+@media only screen and (max-width:575px){
+    .button-outline{
+        margin-left:15%;
+        width:70%;
+    }
+}

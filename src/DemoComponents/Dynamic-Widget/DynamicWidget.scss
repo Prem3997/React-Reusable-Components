@@ -1,0 +1,27 @@
+.widgetButton{
+    border:2px solid black;
+    color:black;
+    font-size: medium;
+    font-weight:bolder;
+    margin:1rem;
+    padding:1rem 2rem;
+    background-color: transparent;
+}
+.widgetButton:hover{
+    border: 2px solid yellow;
+}
+.widgetButton:active{
+    border: 2px solid yellow;
+}
+
+
+  .activeWidget{
+    border:2px solid yellow;
+    color:black;
+    font-size: medium;
+    font-weight:bolder;
+    margin:1rem;
+    padding:1rem 2rem;
+    background-color: transparent;
+  }
+  

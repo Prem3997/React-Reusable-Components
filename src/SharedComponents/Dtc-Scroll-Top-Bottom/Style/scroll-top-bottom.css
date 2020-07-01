@@ -1,0 +1,47 @@
+.top_button
+{  
+        margin-left: 85%;
+        position: fixed;
+        bottom: 40px;
+}
+
+.bottom_button
+{       
+        margin-left: 85%;
+        position: fixed;
+        top: 80px; 
+        bottom: 0;    
+}
+
+.button-style
+{
+    padding: 12px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #F0F0F0;
+    border: none;
+}
+.button-style:hover
+{
+    padding: 12px;
+    color: yellow;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: black;
+    outline: none;
+    border: none;
+}
+.main
+{
+    height: 1000px;
+}
+
+@media only screen and (max-width:575px){
+    .top_button{
+        margin-left: 72.5%;
+    }
+    .bottom_button{
+        margin-left: 70%;
+    }
+}

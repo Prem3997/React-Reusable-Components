@@ -1,0 +1,14 @@
+.border-form{
+    border:solid 1px gainsboro;
+    width:35%;
+    margin:0 auto;
+} 
+
+@media screen and (max-width:575px){
+.border-form{
+    border:solid 1px gainsboro;
+    width: 75%; 
+    height: fit-content;
+    margin:0 auto; 
+}
+}

@@ -1,0 +1,456 @@
+{
+    "data":[ 
+        {
+            "Pillar": [
+                {
+                    "AS London": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                3000,
+                                2500,
+                                2900,
+                                3550,
+                                3800,
+                                2900,
+                                3000,
+                                3500,
+                                4000,
+                                3700,
+                                3550,
+                                3800
+                            ]
+                        }
+                    
+                },
+                {
+                    "AS Region": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                301,
+                                300,
+                                290,
+                                550,
+                                300,
+                                600,
+                                300,
+                                500,
+                                470,
+                                370,
+                                355,
+                                380
+                            ]
+                        }
+                    
+                },
+                {
+                    "Retail Asset": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                201,
+                                300,
+                                290,
+                                550,
+                                300,
+                                200,
+                                300,
+                                500,
+                                470,
+                                370,
+                                355,
+                                380
+                            ]
+                        }
+                    
+                }
+            ],
+            "Sector": [
+                {
+                    "Industrial": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                2010,
+                                5600,
+                                900,
+                                3550,
+                                3800,
+                                2900,
+                                3000,
+                                3500,
+                                4000,
+                                3700,
+                                3550,
+                                3800
+                            ]
+                        }
+                    
+                },
+                {
+                    "Office": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                1010,
+                                3000,
+                                4290,
+                                2550,
+                                1300,
+                                2000,
+                                3000,
+                                500,
+                                4070,
+                                3370,
+                                3055,
+                                3080
+                            ]
+                        }
+                    
+                },
+                {
+                    "Retail": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                2401,
+                                300,
+                                290,
+                                5050,
+                                300,
+                                2000,
+                                300,
+                                5000,
+                                470,
+                                3070,
+                                355,
+                                3800
+                            ]
+                        }
+                    
+                },
+                {
+                    "Mixed Property": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                1401,
+                                300,
+                                2090,
+                                550,
+                                300,
+                                2000,
+                                300,
+                                4000,
+                                470,
+                                3070,
+                                355,
+                                3080
+                            ]
+                        }
+                    
+                }
+            ],
+            "BillingType": [
+                {
+                    "Old English": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                300,
+                                2500,
+                                900,
+                                3550,
+                                800,
+                                2900,
+                                3000,
+                                500,
+                                4000,
+                                700,
+                                3550,
+                                3800
+                            ]
+                        }
+                    
+                },
+                {
+                    "New English": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                301,
+                                300,
+                                290,
+                                5050,
+                                300,
+                                600,
+                                3000,
+                                500,
+                                4070,
+                                370,
+                                355,
+                                380
+                            ]
+                        }
+                    
+                },
+                {
+                    "Monthly": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                2001,
+                                300,
+                                290,
+                                550,
+                                300,
+                                3000,
+                                300,
+                                500,
+                                470,
+                                370,
+                                3055,
+                                380
+                            ]
+                        }
+                    
+                }
+            ],
+            "Client": [
+                {
+                    "Stratergic": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                300,
+                                250,
+                                290,
+                                3550,
+                                3800,
+                                2900,
+                                3000,
+                                300,
+                                4000,
+                                3700,
+                                3550,
+                                800
+                            ]
+                        }
+                    
+                },
+                {
+                    "Non-Stratergic": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                2301,
+                                3300,
+                                3290,
+                                4550,
+                                3300,
+                                3600,
+                                3300,
+                                2500,
+                                2470,
+                                3370,
+                                2355,
+                                2380
+                            ]
+                        }
+                    
+                },
+                {
+                    "Retail Asset": 
+                        {
+                            "label": [
+                                "January",
+                                "February",
+                                "March",
+                                "April",
+                                "May",
+                                "June",
+                                "July",
+                                "August",
+                                "September",
+                                "October",
+                                "November",
+                                "December"
+                            ],
+                            "data": [
+                                3201,
+                                3000,
+                                4290,
+                                3550,
+                                4300,
+                                3200,
+                                3300,
+                                3500,
+                                4470,
+                                3370,
+                                2355,
+                                2080
+                            ]
+                        }
+                    
+                }
+            ]
+        }
+    ]
+}

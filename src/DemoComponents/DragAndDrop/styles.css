@@ -1,0 +1,19 @@
+.dragNdrop-heading{
+  margin-left: 17%;
+}
+.ex-heading{
+  margin: 5%;
+  margin-left: 0;
+  text-align: left;
+}
+@media screen and (max-width: 575px){
+  .dragNdrop-heading{
+    margin-left: 0%;
+  }
+  .ex-heading{
+    margin: 5%;
+    margin-left: 0;
+    text-align: center;
+    font-size: medium;
+  }
+}

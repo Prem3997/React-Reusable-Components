@@ -1,0 +1,31 @@
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.spinner-button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.spinner-button:hover{
+    color: yellow;
+}
+.spinner-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation: rotate 1s linear infinite;
+    
+}
+
+@keyframes rotate{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

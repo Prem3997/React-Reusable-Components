@@ -1,0 +1,133 @@
+.whole-container{
+    font-size: medium; 
+    margin:0 auto;
+    width: 80%;
+}
+.selected-text{
+    margin-left:15%;
+    display: flex;
+    align-items: flex-start;
+}
+.select-list{
+    width:110%;
+    margin-left:2px;
+    margin-bottom: 10px;
+    margin-right:-8%;
+}
+
+.selectbutton{
+    width:67%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-2b097c-container{
+    width:90%;
+    float: left;
+    margin-top: 3%;
+} 
+
+.fa, .fas{
+    overflow:hidden;
+    padding-bottom: 2%; 
+    margin-top:3.5%;
+    font-size: large;
+} 
+
+.cards-container1 {
+    min-height: 16.5em;
+    border: 1px solid #E0E0E0;
+    margin-top: 1em;
+    width: 100%;
+    margin:0 auto;
+}
+
+.cards-content-column{
+    flex: 0 1 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E0E0E0;
+    margin:0.1rem;
+    padding:0.35em;
+    margin-left: -10px;
+    margin-right:-10px; 
+    margin-top:4px;
+    align-items: center;
+    width:96%;
+    float:left;
+}
+  
+.client-name {
+    font-family: 'dxc-Bold', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left:0;
+    font-size: small;
+    text-align: left;
+}
+
+.dele{
+    margin-left:50%;
+    float:right;
+    margin-top: -51px; 
+    margin-right: 6px;
+    width: 3%;
+    font-size: small;
+    margin-bottom: -9px;
+}
+
+ 
+.fa-trash-alt {
+    display: inline-block;
+    padding: 0.75em 0.29em;
+    background-color: black;
+    border-radius: 1px;
+    font-size: small;
+    margin-left:-5px;
+}
+.presenter-text{
+    margin-top:20px;
+}
+.container-2{
+    width:85%;
+    margin:0 auto;
+     margin-left: 15%;
+    overflow-wrap: break-word;
+    font-size: medium; 
+}
+
+@media screen and (max-width: 575px) {
+.selectbutton{
+    width: 100%;
+}
+.fa,.fas{
+    margin-left:-10%;
+  }
+.cards-container1 {
+    margin-left:1%;
+}
+.cards-content-column{
+    width:94%;
+}
+.dele{
+    margin-top:-49px;
+}
+.fa-trash-alt{
+   padding: 0.6em 0.1em;
+   margin-left: -7px;
+}
+.select-list{
+    margin-bottom: 4px;
+}
+.container-2{
+    margin:0 auto;
+    width:95%;
+}
+}
+@media screen and (min-width: 2000px){
+    .select-list{
+        margin-bottom: 30px;
+    }    
+} 

@@ -1,0 +1,40 @@
+.card{
+    background-color: black;
+    color: grey;
+    font-size: 1.253rem;
+    cursor: pointer;
+    width: 15rem;
+    height: 15rem;
+    margin:0.2rem;
+}
+.card-title{
+    color:white;
+    font-size: x-large;
+}
+.card-img{
+    margin-top: 1.928rem;
+    margin-left: 5.687rem;
+    width: 3.892rem;
+    height: 3.892rem;
+}
+
+@media only screen and (max-width:575px){
+    .card{
+        margin: 0.25rem 0rem 0.25rem 0.2rem;
+        width: 22rem;
+    }
+    .card-img{
+        margin-left: 9rem;
+    }
+}
+
+@media only screen and (min-width:1600px){
+    .card{
+        width: 15em;
+        height: 15em;
+    }
+    .card-img{
+        width: 5rem;
+        margin-left:7rem;
+    }
+}

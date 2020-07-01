@@ -1,0 +1,28 @@
+.btn:hover{
+    color : yellow;
+}
+
+#exportCsv{
+    text-decoration: none;
+    color:black;
+}
+.export-data{
+     width:100%;
+     margin: 0 auto;
+}
+
+.exportData{
+    font-size:17px;
+    margin:5px;
+    padding:5px;
+    cursor:pointer;
+}
+.exportData:hover{
+     background-color: lightgrey;
+}
+@media screen and (max-width: 575px) {
+    .exportData{
+        font-size:14px;
+        margin:-5px;
+    }   
+}

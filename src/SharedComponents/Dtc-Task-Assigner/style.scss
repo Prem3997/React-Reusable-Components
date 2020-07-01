@@ -1,0 +1,95 @@
+// .multicolumn{
+//   margin:3rem;
+//   display: flex;
+//   flex-direction: row;
+// }
+// .task-cards-column1{
+//     width: 33.33%;
+//     float: left;
+// }
+// .task-cards__single__main__task-icon{
+//     float: right;
+//     width: 1.5rem;
+//     height: 1.5rem;
+//     margin: 1rem;
+//     color: red;
+// }
+// .task-table{
+//     border: 1px solid black;
+//     empty-cells: show !important;
+//     width: 100%;
+// }
+// .task-table tr{
+//     text-align: left;
+//     border: 1px solid black;
+//     empty-cells: show !important;
+// }
+
+
+.show-task-description{
+    transform: rotate(90deg);
+}
+.multicolumn{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.task-tooltip{
+    border: 1px solid black !important;
+}
+
+.task-cards{
+    float: left;
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    height: 400px;
+    
+    &__heading{
+        text-decoration: underline;
+        margin-bottom: 2rem;
+    }
+
+    &__single{
+        text-align: left;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        
+        &__main{
+            border-bottom : 0.005rem solid grey;
+
+            &__name{
+                float: left;
+                margin: 1rem;
+            }
+    
+            &__task-icon{
+                float: right;
+                width: 1.8rem;
+                height: 1.8rem;
+                margin: 1rem;
+                color: red;
+            }
+
+        }
+        &__description{
+            margin: 1rem;
+            
+        }
+        
+    }
+}
+
+@media screen and (max-width: 575px){
+    .multicolumn{
+        flex-direction: column;
+    }
+    .task-cards{
+        width:90%;
+        height: max-content
+    }
+}

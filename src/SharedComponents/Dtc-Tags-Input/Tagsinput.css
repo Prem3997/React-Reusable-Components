@@ -1,0 +1,43 @@
+.tags-container{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.tags-input {
+    width: 80%;
+  }
+.tags-input:focus{
+    border-color:black;
+}
+.items-length{
+    margin-left: 10px;
+}
+.flex-container{
+    display:flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    border: solid 2px gray;
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+  }
+  .tag{
+    border:1px solid white;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px; 
+  }
+  .tag:hover{
+    border-color: yellow;
+  }
+  .close-icon{
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
